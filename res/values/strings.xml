@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">SuperdryColorPicker</string>
+	<string name="introduction">SuperdryColorPicker is color picker library for
+		Android. This app is demonstration. This source code is here (
+		http://code.google.com/p/superdry-colorpicker ).</string>
+	<string name="button_intro">1) If you want to launch SuperdryColorPicker from
+		normal activities, you will push the below button.</string>
+	<string name="pref_intro">2) If you want to launch from
+		PreferenceActivity, you will push the below button.</string>
+	<string name="contact">Develper
+		:superdry\nmail:superdry.app@gmail.com\nTwitter:@lychee(
+		http://twitter.com/lychee )</string>
+		
+		<string name="launchBtn">launch from Button</string>
+		<string name="launchBtnfromPref">launch from Preference Activity</string>
+
+</resources>

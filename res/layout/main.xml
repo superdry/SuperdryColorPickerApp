@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@+id/ScrollView"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="fill_parent" android:layout_width="fill_parent">
+	<LinearLayout android:orientation="vertical"
+		android:layout_width="fill_parent" android:layout_height="fill_parent">
+		<TextView android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:text="@string/introduction"
+			android:autoLink="web" android:layout_marginBottom="10dp" />
+		<include layout="@layout/divider" />
+		<TextView android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:text="@string/button_intro"
+			android:autoLink="web" android:layout_marginBottom="10dp" />
+		<LinearLayout android:layout_width="150dp"
+			android:layout_height="wrap_content" android:layout_gravity="center_horizontal"
+			android:orientation="vertical">
+			<View android:id="@+id/Color" android:layout_width="fill_parent"
+				android:layout_height="100dp" android:text=""
+				android:layout_marginBottom="5dp" />
+			<Button android:id="@+id/StartButton" android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:text="@string/launchBtn"
+				android:layout_marginBottom="5dp" />
+		</LinearLayout>
+		
+		<include layout="@layout/divider" />
+		<TextView android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:text="@string/pref_intro"
+			android:autoLink="web" android:layout_marginBottom="10dp" />
+		<Button android:id="@+id/StartPreference" android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:text="@string/launchBtnfromPref"
+			android:layout_marginLeft="5dp" android:layout_marginRight="10dp"
+			android:layout_gravity="center_horizontal" />
+			
+		<include layout="@layout/divider" />
+			android:layout_marginLeft="10dip" android:layout_marginRight="10dip" />
+		<TextView android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:text="@string/contact"
+			android:autoLink="all" android:layout_marginBottom="10dp" />
+	</LinearLayout>
+</ScrollView>
